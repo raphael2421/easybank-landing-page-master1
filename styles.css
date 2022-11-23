@@ -1,0 +1,263 @@
+:root {
+  --color-orange: #f3603c;
+  --color-blue: #242d52;
+  --color-black: #1d1e25;
+  --color-cream: #fff0ec;
+  --color-white: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+figure,
+picture {
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* styling main nav*/
+
+.nav {
+  background: linear-gradient(
+    180deg,
+    #242d52 0%,
+    rgba(45, 49, 77, 0.0001) 100%
+  );
+  position: absolute;
+  top: 64px;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+}
+
+.nav .links {
+  background-color: var(--color-white);
+}
+
+.nav a {
+  display: block;
+  padding: 12px 0px;
+}
+
+.typography-links {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.017rem;
+}
+
+.header {
+  display: flex;
+  padding: 41px 24px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-white);
+  position: relative;
+  z-index: 100;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header .logo {
+  height: 18px;
+}
+
+.header .button {
+  display: none;
+}
+
+/* initializing main section */
+
+.main-container {
+  padding: 375px 24px 88px;
+}
+
+.main-section {
+  text-align: center;
+  letter-spacing: -0.0625rem;
+}
+
+.main-section .paragraph {
+  margin-bottom: 29px;
+  padding: 9px 26px;
+}
+
+.main-picture {
+  background-image: url("./images/bg-tablet-pattern.svg");
+  background-position: 60px -60px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 402px;
+  padding: 0px 24px;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-blue);
+  margin-bottom: 9px;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--color-blue);
+  letter-spacing: -0rem;
+  line-height: 3rem;
+}
+
+.font-bold {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--color-orange);
+  border-radius: 22px;
+  color: var(--color-white);
+  padding: 1.8rem 5.8rem;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+
+.section2 {
+  background-color: var(--color-white);
+  align-items: center;
+  padding: 64px 22px;
+  text-align: center;
+}
+
+.section2 .header2 {
+  margin-bottom: 13px;
+  margin-top: -72px;
+  font-size: 3.5rem;
+}
+
+.section2 .paragraph2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-blue);
+  letter-spacing: -0rem;
+  line-height: 3rem;
+  padding: 0px 25px;
+}
+
+.articles {
+  align-items: center;
+  gap: 47px;
+  margin-top: 54px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header3 {
+  gap: 16px;
+  align-items: center;
+  background-color: var(--color-cream);
+}
+
+.span {
+  background-color: var(--color-orange);
+  border-radius: 39px;
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+}
+
+.paragraph3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--color-blue);
+  letter-spacing: 0rem;
+  line-height: 3rem;
+  padding: 8px 14px;
+  text-align: left;
+}
+
+.section3 {
+  padding: 48px 24px;
+}
+
+.section3 .header2 {
+  margin-bottom: 62px;
+  margin-top: -62px;
+  font-size: 3.5rem;
+}
+
+.section4 {
+  padding: 91px 32px;
+  gap: 29px;
+  background-color: var(--color-orange);
+}
+
+.header4 {
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: 0rem;
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.button3 {
+  background-color: var(--color-white);
+  border-radius: 22px;
+  color: var(--color-orange);
+  padding: 1.8rem 5.8rem;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: var(--color-black);
+  padding: 40px 77.5px;
+  gap: 32px;
+}
+
+.footer.icons figure {
+  width: 24px;
+  height: 24px;
+  gap: 12px;
+}
+
+.footer .flex-column {
+  gap: 8px;
+  color: var(--color-white);
+}
